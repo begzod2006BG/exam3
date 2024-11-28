@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1440px;
+  padding: 0 100px;
+  margin: 0 auto;
+}
+header {
+  background-color: #272c3d;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  z-index: 11;
+  width: 100%;
+}
+.top__parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+}
+.top__left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+.top__left a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+.top__left a:hover {
+  color: orange;
+}
+.top__right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+.top__right input {
+  width: 241px;
+  height: 30px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.top__right select {
+  width: 165px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  border-radius: 3px;
+  border: none;
+  padding: 0 10px;
+}
+
+.input-wrapper {
+  display: flex;
+  gap: 20px;
+  padding: 3px 10px;
+  background-color: #404864;
+  border-radius: 4px;
+}
+.bg {
+  height: 620px;
+  background-image: url("./Bg.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.major {
+  background-color: black;
+  height: 500px;
+}
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  font-weight: 200;
+  padding: 50px 0;
+}
+.center__parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.pgl {
+  background-color: #1b1e27;
+  height: 800px;
+}
+h2 {
+  padding: 30px 250px;
+  color: white;
+  font-size: 27px;
+  font-weight: 200;
+}
+.top__sons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.top__sons p {
+  width: 323px;
+  color: white;
+  font-weight: 100;
+}
+.top__parent3 {
+  margin-top: 80px;
+}
+footer {
+  height: 80px;
+  background-color: #272c3d;
+}
+.bottom__parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 21px 0;
+}
+.bottom__right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+.bottom__right a {
+  text-decoration: none;
+  color: white;
+}
+.bottom__right a:hover {
+  color: orange;
+}
